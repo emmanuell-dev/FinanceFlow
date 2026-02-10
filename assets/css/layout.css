@@ -55,7 +55,7 @@
   width: 600px;
   padding-bottom: 600px;
   top: -100px;
-  left: -20px;
+  left: 20px;
   z-index: -1;
   background-color: rgba(1, 13, 80, 0.8);
   filter: blur(100px);
