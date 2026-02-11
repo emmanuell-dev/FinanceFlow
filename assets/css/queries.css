@@ -93,7 +93,6 @@ p{
 }
 
 
-
 @media (min-width: 310px) and (max-width: 770px){
   .layout{
     width: 100%;
@@ -101,7 +100,7 @@ p{
     max-width: 77rem;
   }
   
-  .container{
+ .container{
     width: 100%;
     padding: 0 1.5rem;
   }
@@ -109,7 +108,6 @@ p{
   .heads{
     padding: 1rem 0;
     z-index: 999;
-    display: relative;
   }
   
   .logo{
@@ -136,12 +134,13 @@ p{
   gap: 3rem;
   backdrop-filter: blur(100px);
   transform: translateX(100%);
-  transition: all 0.3s linear;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
   opacity: 0;
   pointer-events: none;
   visibility: none;
   z-index: 6666;
 }
+
 
 .main-nav-list{
   display: flex;
@@ -156,6 +155,7 @@ p{
   visibility: visible;
   transform: translateX(0%);
 }
+
   .nav-menu{
     display: block;
 }
