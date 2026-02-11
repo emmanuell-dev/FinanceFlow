@@ -5,12 +5,24 @@
     background-color: #010725;
 }
 
+@media (min-width: 1430px) and (max-width: 1670px){
+  .layout{
+    min-width: 143rem;
+    max-width: 167rem;
+  }
+}
+
 .container{
       width: 100%;
     max-width: 167rem;
     margin: 0 auto;
     padding: 0 2.4rem;
-  
+}
+
+@media (min-width: 1430px) and (max-width: 1670px){
+  .layout{
+    min-width: 143rem;
+  }
 }
 
 .heads{
