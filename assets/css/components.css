@@ -31,17 +31,16 @@ a{
 
 .btn-link{
   display: inline-block;
-  background-color: yellow;
   width: 18rem;
   text-align: center;
   padding: 2rem 0;
   border-radius: 5rem;
+  transition: background 0.3s linear;
 }
 
 .btn-left{
   background-color: #0328EE;
   margin-right: 30px;
-  transition: all 0.3s linear;
 }
 
 .btn-left:hover{
@@ -50,7 +49,6 @@ a{
 
 .btn-right{
   background-color: #010D50;
-  transition: all 0.3s linear;
 }
 
 .btn-right:hover{
