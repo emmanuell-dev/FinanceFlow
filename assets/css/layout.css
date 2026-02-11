@@ -26,6 +26,12 @@
   }
 }
 
+@media (min-width: 800px) and (max-width: 1022px){
+  .layout{
+    min-width: 80rem;
+    max-width: 102rem;
+}
+
 .container{
       width: 100%;
     max-width: 167rem;
@@ -53,6 +59,13 @@
     width: 100%;
     max-width: none;
   }
+}
+
+@media (min-width: 800px) and (max-width: 1022px){
+  .layout{
+    width: 100%;
+    max-width: none;
+}
 }
 
 .heads{
@@ -91,6 +104,10 @@
 .logo{
   width: 12rem;
 }
+}
+@media (min-width: 800px) and (max-width: 1022px){
+  .logo{
+    width: 10rem;
 }
 
 
