@@ -27,13 +27,14 @@
 }
 
 @media (min-width: 1430px) and (max-width: 1670px){
-  .layout{
+  .container{
     max-width: 143rem;
   }
 }
 
 @media (min-width: 1220px) and (max-width: 1430px){
-  .layout{
+  .container{
+    width: 100%;
     max-width: 120rem;
   }
 }
