@@ -159,6 +159,7 @@
 @media (min-width: 1023px) and (max-width: 1276px){
 .hero-img-box{
   width: 400px;
+  height: 400px;
 }
 }
 
