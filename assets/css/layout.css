@@ -158,8 +158,7 @@
 
 @media (min-width: 1023px) and (max-width: 1276px){
 .hero-img-box{
-  width: 300px;
-  aspect-ratio: 4/3;
+  width: 400px;
 }
 }
 
