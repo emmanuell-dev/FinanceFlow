@@ -34,30 +34,6 @@
   z-index: 8888;
 }
 
-@media (min-width: 1430px) and (max-width: 1670px){
- .logo{
-   width: 17rem;
- }
-}
-
-@media (min-width: 1279px) and (max-width: 1428px){
-.logo{
-  width: 15rem;
-}
-}
-
-@media (min-width: 1023px) and (max-width: 1276px){
-.logo{
-  width: 12rem;
-}
-}
-/*@media (min-width: 310px) and (max-width: 720px){
-  .logo{
-    width: 25rem;
-}
-}*/
-
-
 .logos{
   width: 100%;
   height: 100%;
@@ -96,13 +72,6 @@
 .btn-close{
   display: none;
 }
-
-
-
-
-
-
-
 
 
 
@@ -147,19 +116,13 @@
 }
 
 .hero-des{
-  margin-bottom: 40px;
+  margin-bottom: 3rem;
   z-index: 9999;
 }
 
 .hero-img-box{
-  width: 600px;
+  width: 100%;
   aspect-ratio: 2/1;
-}
-
-@media (min-width: 1023px) and (max-width: 1276px){
-.hero-img-box{
-  width: 500px;
-}
 }
 
 .hero-img{
@@ -197,23 +160,10 @@ height: 100%;
   height: 50px;
 }
 
-@media (min-width: 1023px) and (max-width: 1276px){
-.featurein-img{
-  width: 30px;
-  height: 30px;
-}
-}
-
 .partner-name{
   font-size: 2.2rem;
   align-self: center;
   justify-self: center;
-}
-
-@media (min-width: 1023px) and (max-width: 1276px){
-.partner-name{
-  font-size: 1.7rem;
-}
 }
 
 .stripe{
@@ -222,11 +172,4 @@ height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-@media (min-width: 1023px) and (max-width: 1276px){
-.stripe{
-  width: 50px;
-  height: 50px;
-}
 }

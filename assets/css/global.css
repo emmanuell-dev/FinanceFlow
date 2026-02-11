@@ -1,6 +1,4 @@
-*,
-*::before,
-*::after{
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -40,23 +38,6 @@ h1{
   margin-bottom: 3rem;
 }
 
-@media (min-width: 1430px) and (max-width: 1670px){
-h1{
-  font-size: 4.8rem;
-}
-}
-@media (min-width: 1279px) and (max-width: 1428px){
-  h1{
-    font-size: 4.3rem;
-  }
-}
-
-@media (min-width: 1023px) and (max-width: 1276px){
-h1{
-  font-size: 3.6rem;
-}
-}
-
 h2{
   font-size: 3.2rem;
   line-height: 1.2;
@@ -69,18 +50,6 @@ p{
   font-weight: 400;
   line-height: 1.6;
   color: var(--h1);
-}
-
-@media (min-width: 1430px) and (max-width: 1670px){
-  p{
-    font-size: 1.8rem;
-  }
-}
-
-@media (min-width: 1023px) and (max-width: 1276px){
-p{
-  font-size: 1.6rem;
-}
 }
 
 .grid{

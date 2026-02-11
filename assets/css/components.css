@@ -5,12 +5,6 @@ a{
   text-transform: uppercase;
 }
 
-/*@media (min-width: 310px) and (max-width: 720px){
-  a{
-    font-size: 2.5rem;
-  }
-}*/
-
 .btn-btn{
   background: none;
   width: 18rem;
@@ -41,23 +35,6 @@ a{
   transition: background-color 0.3s linear;
 }
 
-@media (min-width: 1023px) and (max-width: 1276px){
-.btn-btn{
-  font-size: 1.3rem;
-  width: 15rem;
-  padding: 1.5rem 0;
-}
-}
-
-/*@media (min-width: 310px) and (max-width: 720px){
-  .bts{
-    font-size: 3.5rem;
-    width: 50rem;
-    padding: 4rem 5rem;
-    border-radius: 10rem;
-}
-}*/
-
 
 .nav-list:link,
 .nav-list:visited{
@@ -77,13 +54,6 @@ a{
   transition: background 0.3s linear;
 }
 
-@media (min-width: 1023px) and (max-width: 1276px){
-.btn-link{
-  width: 15rem;
-  padding: 1.5rem 0;
-  font-size: 1.3rem;
-}
-}
 
 .btn-left{
   background-color: #0328EE;
