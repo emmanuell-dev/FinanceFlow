@@ -5,6 +5,12 @@ a{
   text-transform: uppercase;
 }
 
+@media (min-width: 800px) and (max-width: 1022px){
+  a{
+    font-size: 5.6rem;
+  }
+}
+
 .btn-btn{
   background: none;
   width: 18rem;
@@ -20,11 +26,35 @@ a{
   transition: background-color 0.3s linear
 }
 
+.bts{
+  background: none;
+  width: 18rem;
+  border: none;
+  padding: 2rem 0;
+  background-color: #0328EE;
+  text-transform: uppercase;
+  border-radius: 5rem ;
+  font-size: 1.8rem;
+  color: var(--alink);
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s linear;
+}
+
 @media (min-width: 1023px) and (max-width: 1276px){
 .btn-btn{
   font-size: 1.3rem;
   width: 15rem;
   padding: 1.5rem 0;
+}
+}
+
+@media (min-width: 800px) and (max-width: 1022px){
+  .bts{
+    font-size: 5.6rem;
+    width: 50rem;
+    padding: 4rem 5rem;
+    border-radius: 10rem;
 }
 }
 
