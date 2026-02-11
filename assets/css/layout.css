@@ -126,6 +126,13 @@
   border-radius: 50%;
 }
 
+@media (min-width: 1023px) and (max-width: 1276px){
+.section-hero::after{
+  width: 300px;
+  padding-bottom: 300px;
+}
+}
+
 .section-hero::before{
   content: "";
   position: absolute;
