@@ -49,6 +49,12 @@ h1{
   }
 }
 
+@media (min-width: 1023px) and (max-width: 1276px){
+h1{
+  font-size: 3.6rem;
+}
+}
+
 h2{
   font-size: 3.2rem;
   line-height: 1.2;
@@ -67,6 +73,12 @@ p{
   p{
     font-size: 1.8rem;
   }
+}
+
+@media (min-width: 1023px) and (max-width: 1276px){
+p{
+  font-size: 1.6rem;
+}
 }
 
 

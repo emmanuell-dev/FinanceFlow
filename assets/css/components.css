@@ -20,6 +20,12 @@ a{
   transition: background-color 0.3s linear
 }
 
+@media (min-width: 1023px) and (max-width: 1276px){
+.btn-btn{
+  font-size: 1.6rem;
+}
+}
+
 .nav-list:link,
 .nav-list:visited{
 
