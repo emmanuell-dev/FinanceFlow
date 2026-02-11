@@ -5,11 +5,11 @@ a{
   text-transform: uppercase;
 }
 
-@media (min-width: 800px) and (max-width: 1022px){
+/*@media (min-width: 310px) and (max-width: 720px){
   a{
-    font-size: 5.6rem;
+    font-size: 2.5rem;
   }
-}
+}*/
 
 .btn-btn{
   background: none;
@@ -49,14 +49,15 @@ a{
 }
 }
 
-@media (min-width: 800px) and (max-width: 1022px){
+/*@media (min-width: 310px) and (max-width: 720px){
   .bts{
     font-size: 3.5rem;
     width: 50rem;
     padding: 4rem 5rem;
     border-radius: 10rem;
 }
-}
+}*/
+
 
 .nav-list:link,
 .nav-list:visited{
