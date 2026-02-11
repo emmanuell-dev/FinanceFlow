@@ -32,10 +32,10 @@
   }
 }
 
-@media (min-width: 1220px) and (max-width: 1430px){
+@media (min-width: 1279px) and (max-width: 1428px){
   .container{
     width: 100%;
-    max-width: 120rem;
+    max-width: 127rem;
   }
 }
 
