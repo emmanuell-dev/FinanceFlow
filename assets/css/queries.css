@@ -169,7 +169,7 @@ p{
 }
 
 .section-hero{
-  padding: 6rem 0;
+  padding: 6rem 0 10rem 0;
 }
 
 .section-hero::after{
@@ -223,7 +223,7 @@ p{
 }
 
 .section-futurein{
-  padding: 3rem 0 5rem 0;
+  padding: 5rem 0 8rem 0;
 }
 
 .featurein{
