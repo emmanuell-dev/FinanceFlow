@@ -12,10 +12,10 @@
   }
 }
 
-@media (min-width: 1220px) and (max-width: 1430px){
+@media (min-width: 1220px) and (max-width: 1420px){
   .layout{
     min-width: 120rem;
-    max-width: 143rem;
+    max-width: 142rem;
   }
 }
 
@@ -30,6 +30,8 @@
   .container{
     width: 100%;
     max-width: none;
+    padding: 0 2.4rem;
+    margin: 0 auto;
   }
 }
 
@@ -49,7 +51,7 @@
 .head{
   display: flex;
   align-items: center;
-  gap: 35rem;
+  justify-content: space-between;
   z-index: 9999;
 }
 
