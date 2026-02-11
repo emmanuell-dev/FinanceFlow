@@ -23,6 +23,8 @@ a{
 @media (min-width: 1023px) and (max-width: 1276px){
 .btn-btn{
   font-size: 1.6rem;
+  width: 15rem;
+  padding: 1.5rem 0;
 }
 }
 
@@ -42,6 +44,13 @@ a{
   padding: 2rem 0;
   border-radius: 5rem;
   transition: background 0.3s linear;
+}
+
+@media (min-width: 1023px) and (max-width: 1276px){
+.btn-link{
+  width: 15rem;
+  padding: 1.5rem 0;
+}
 }
 
 .btn-left{

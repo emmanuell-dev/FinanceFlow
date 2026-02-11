@@ -139,6 +139,13 @@
   border-radius: 50%;
 }
 
+@media (min-width: 1023px) and (max-width: 1276px){
+.section-hero::before{
+  width: 300px;
+  padding-bottom: 300px;
+}
+}
+
 
 
 .grid-hero{
