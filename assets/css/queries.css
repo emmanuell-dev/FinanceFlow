@@ -34,7 +34,7 @@ h2{
   }
   
   .feature-grid{
-    gap: 2rem;
+    gap: 1.5rem;
   }
   
   .card{
@@ -53,7 +53,7 @@ h2{
   }
   
   .card-p{
-    font-weight: 300;
+    font-weight: 200;
   }
   
 }
