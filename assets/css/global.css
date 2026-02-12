@@ -15,12 +15,12 @@ img{
 
 html{
 font-size: 62.5%;
-overflow-x: hidden;
+/*overflow-x: hidden;*/
 }
 
 body{
  /* position: relative;*/
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
 }
 
 
@@ -41,14 +41,15 @@ h1{
 }
 
 h2{
-  font-size: 3.2rem;
+  font-size: 4rem;
   line-height: 1.2;
   font-weight: 600;
+  color: var(--h1);
   
 }
 
 p{
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 300;
   line-height: 1.6;
   color: var(--h1);
