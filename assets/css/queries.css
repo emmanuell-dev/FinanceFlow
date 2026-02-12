@@ -126,6 +126,9 @@ h1{
   .logo{
   width: 12rem;
 }
+a{
+  font-size: 1.3rem;
+}
   .section-hero::after{
   width: 300px;
   padding-bottom: 450px;
