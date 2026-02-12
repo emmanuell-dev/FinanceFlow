@@ -34,7 +34,7 @@ h2{
   }
   
   .feature-grid{
-    gap: 1.5rem;
+    gap: 2rem;
   }
   
   .card{
@@ -42,9 +42,8 @@ h2{
   }
   
   .card-icon{
-    height: 70px;
-    height: 70px;
-    border-radius: 1.5rem;
+    height: 80px;
+    height: 80px;
     margin-bottom: 1.5rem;
   }
   
