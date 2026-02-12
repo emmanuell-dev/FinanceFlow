@@ -76,6 +76,42 @@ h2{
 h1{
     font-size: 4.3rem;
   }
+  
+  h2{
+  font-size: 3.2rem;
+}
+   .feature-head{
+    margin-bottom: 1rem;
+  }
+  .feature-des{
+    margin-bottom: 8rem;
+  }
+  
+  .feature-grid{
+    gap: 2rem;
+  }
+  
+  .card{
+    gap: 1rem;
+  }
+  
+  .card-icon{
+    height: 80px;
+    height: 80px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .card-head{
+    font-size: 2rem;
+  }
+  
+  .card-p{
+    font-weight: 200;
+  }
+  
+  .card-two{
+    gap: 3rem;
+  }
 }
 
 @media (min-width: 1023px) and (max-width: 1276px){
