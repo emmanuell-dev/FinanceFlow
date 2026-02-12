@@ -101,6 +101,11 @@ h1{
     margin-bottom: 1.5rem;
   }
   
+  .phone-icon{
+  margin-top: 5rem;
+}
+
+  
   .card-head{
     font-size: 2rem;
   }
@@ -193,6 +198,10 @@ h2{
      padding: 0.5rem;
   border-radius: 1rem;
   }
+  
+    .phone-icon{
+  margin-top: 5rem;
+}
   
   .card-head{
     font-size: 1.8rem;
