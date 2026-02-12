@@ -180,16 +180,19 @@ h2{
   
   .card{
     gap: 1rem;
+    border-radius: 3rem;
   }
   
   .card-icon{
     height: 60px;
     height: 60px;
     margin-bottom: 1.5rem;
+     padding: 0.5rem;
+  border-radius: 1rem;
   }
   
   .card-head{
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   
   .card-p{
